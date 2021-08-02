@@ -38,9 +38,9 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 @Slf4j
 public class UsersController {
-	private String clientId = "TRIU2aSfWUYeOof9eMyi"; // naver 로그인api 배추마켓 id
-	private String clientSecret = "6Uba5WIRio";// naver 로그인api 배추마켓 id 시크릿 코드
-	private String your_callback_url = "http://localhost:80/cabbageMarket/callback";// naver 로그인api 로그인 후 응답값을 받기위한 url
+	private String clientId = "A30xS687XPDob0JyaUfy"; // naver 로그인api 배추마켓 id
+	private String clientSecret = "jw0w4rL1Pm";// naver 로그인api 배추마켓 id 시크릿 코드
+	private String your_callback_url = "http://jbdomain.kro.kr/cabbageMarket/callback";// naver 로그인api 로그인 후 응답값을 받기위한 url
 	@Autowired UsersService usersService;
 	@Autowired ApplyProductSalesService applyProductSalesService;
 	@Autowired UsersMapper usersMapper;
@@ -393,7 +393,7 @@ public class UsersController {
 	public String callback(HttpSession session, HttpServletRequest request, Model model) throws IOException, ParseException {
 		String code = request.getParameter("code");// 로그인 후 네이버에서 받은 code
 	    String state = request.getParameter("state");// 로그인 후 네이버에서 받은 랜덤 숫자값
-	    String redirectURI = URLEncoder.encode("http://localhost:80/cabbageMarket/index", "UTF-8");// 콜백url
+	    String redirectURI = URLEncoder.encode("http://jbdomain.kro.kr/cabbageMarket/callback", "UTF-8");// 콜백url
 	    String apiURL;
 	    apiURL = "https://nid.naver.com/oauth2.0/token?grant_type=authorization_code&";// 네이버 로그인을 위한 토큰 검증 url
 	    apiURL += "client_id=" + clientId;// 배추마켓 플랫폼 id 을 더한다.

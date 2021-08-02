@@ -146,7 +146,7 @@
 		console.log('shipping Address 목록');
 		$.ajax({
 			type:'get',
-			url:'http://localhost/cabbageMarket/getShippingAddress',
+			url:'${pageContext.request.contextPath}/getShippingAddress',
 			success: function(jsonData) {
 				$(jsonData).each(function(index, item) {
 					var html = '<option value="'+item.address+'">'+item.address+'</option>';
