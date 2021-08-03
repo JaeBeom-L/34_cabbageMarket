@@ -61,7 +61,7 @@ public class ApplyProductSalesService {
 					try {
 						File temp = new File("");
 						String path = temp.getAbsolutePath();
-						f.transferTo(new File(path+"\\src\\main\\webapp\\template\\img\\applyProductImg\\"+filename));
+						f.transferTo(new File(path+"/home/ubuntu/tomcat9/webapps/cabbageMarketFile/deliveryImg/"+filename));
 					} catch (Exception e) {
 						throw new RuntimeException();
 					}

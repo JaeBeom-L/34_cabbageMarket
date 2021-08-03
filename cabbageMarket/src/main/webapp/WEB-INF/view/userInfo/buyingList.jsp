@@ -113,7 +113,7 @@
 				                                		${index = index+1}
 				                                	</td>
 				                                    <td>
-				                                        <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${bupl.img}" width="70px" height="50px">
+				                                        <img src="/cabbageMarketFile/deliveryImg/${bupl.img}" width="70px" height="50px">
 				                                    </td>
 				                                    <td>
 				                                    	<h5>

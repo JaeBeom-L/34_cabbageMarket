@@ -113,8 +113,8 @@
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                         	<c:forEach var="img" items="${imgPathList}">
-                        		<img data-imgbigurl="${pageContext.request.contextPath}/template/img/applyProductImg/${img}"
-                                src="${pageContext.request.contextPath}/template/img/applyProductImg/${img}" alt="">
+                        		<img data-imgbigurl="/cabbageMarketFile/deliveryImg/${img}"
+                                src="/cabbageMarketFile/deliveryImg/${img}" alt="">
                         	</c:forEach>
                         </div>
                     </div>

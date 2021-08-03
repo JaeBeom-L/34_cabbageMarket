@@ -332,12 +332,12 @@
 									<thead>
 										<tr>
 
-											<th>회원 아이디</th>
+											<th>회원ID</th>
 											<th>상품 사진</th>
-											<th>품목 종류</th>
+											<th>카테고리</th>
 											<th>상품 이름</th>
 											<th>운송장 번호</th>
-											<th>등록 승인 해주기</th>
+											<th>등록 승인</th>
 
 										</tr>
 									</thead>
@@ -347,14 +347,14 @@
 										
 											<tr>
 												<td>${gdpl.userId}</td>
-												<td><a href="${pageContext.request.contextPath}/manager/getDeliveryProductInfo?apsdi=${gdpl.apsdi}"><img src="${pageContext.request.contextPath}/template/img/applyProductImg/${gdpl.imgName}" width="250px" height="160px"></a></td>
+												<td><a href="${pageContext.request.contextPath}/manager/getDeliveryProductInfo?apsdi=${gdpl.apsdi}"><img src="/cabbageMarketFile/deliveryImg/${gdpl.imgName}" width="50px" height="60px"></a></td>
 												<td>${gdpl.categorySubName}</td>
 												<td>${gdpl.productName}</td>
 												<td>${gdpl.waybillNo}</td>
 													<td><a href="${pageContext.request.contextPath}/manager/addDeliveryProductList?applyProductSalesDeliveryId=${gdpl.apsdi}&managerId=${managerSession.managerId}" class="btn btn-success btn-icon-split">
 															<span class="icon text-white-25"> <i
 																class="fas fa-check"></i>
-														</span> <span class="text">등록 승인</span>
+														</span> <span class="text">승인</span>
 													</a></td>
 												</tr>
 											

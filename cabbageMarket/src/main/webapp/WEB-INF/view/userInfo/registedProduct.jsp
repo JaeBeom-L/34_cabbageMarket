@@ -221,7 +221,7 @@
 					                                		${index = index+1}
 					                                	</td>
 					                                    <td style="width: 100px;">
-					                                        <img src="${pageContext.request.contextPath}/template/img/directTradeImg/${gdpl.img}" width="50px" height="50px">
+					                                        <img src="/cabbageMarketFile/directImg/${gdpl.img}" width="50px" height="50px">
 					                                    </td>
 					                                    <td>
 					                                    	<h5>
@@ -314,7 +314,7 @@
 					                                		${total = total+1}
 					                                	</td>
 					                                    <td>
-					                                        <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${gupl.img}" width="70px" height="50px">
+					                                        <img src="/cabbageMarketFile/deliveryImg/${gupl.img}" width="70px" height="50px">
 					                                    </td>					                                   
 					                                    <td>
 					                                    	<h5 style="color: #3CC2FF"><a href="${pageContext.request.contextPath}/users/getUsedProductOne?applyId=${gupl.applyProductSalesDeliveryId}">${gupl.productName}</a></h5>
@@ -389,7 +389,7 @@
 				                                		${total1 = total1+1}
 				                                	</td>
 				                                    <td style="width: 100px;">
-				                                        <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${gapl.img}" width="50px" height="50px">
+				                                        <img src="/cabbageMarketFile/deliveryImg/${gapl.img}" width="50px" height="50px">
 				                                    </td>
 				                                    <td>
 				                                    	<h5>

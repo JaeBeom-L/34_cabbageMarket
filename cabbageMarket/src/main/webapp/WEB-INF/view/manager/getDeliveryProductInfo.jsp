@@ -335,7 +335,7 @@
 										</tr>
 										<tr>
 											<td>제품 사진 :</td>
-											<td><img src="${pageContext.request.contextPath}/template/img/applyProductImg/${productInfo.imgName}" width="250px" height="160px"></td>
+											<td><img src="/cabbageMarketFile/deliveryImg/${productInfo.imgName}" width="250px" height="160px"></td>
 										</tr>
 										<tr>
 											<td>배송 등록 번호 :</td>

@@ -94,13 +94,13 @@
 					<div class="product__details__pic">
 						<div class="product__details__pic__item">
 							<img class="product__details__pic__item--large"
-								 src="${pageContext.request.contextPath}/template/img/applyProductImg/${imgNameList[0]}"
+								 src="/cabbageMarketFile/deliveryImg/${imgNameList[0]}"
 								 alt="">
 						</div>
 						<div class="product__details__pic__slider owl-carousel">
 							<c:forEach var="img" items="${imgNameList}">
-								<img data-imgbigurl="${pageContext.request.contextPath}/template/img/applyProductImg/${img}"
-									 src="${pageContext.request.contextPath}/template/img/applyProductImg/${img}"
+								<img data-imgbigurl="/cabbageMarketFile/deliveryImg/${img}"
+									 src="/cabbageMarketFile/deliveryImg/${img}"
 									 alt="">
 							</c:forEach>
 						</div>
@@ -193,7 +193,7 @@
 	            <c:forEach var="rupl" items="${relatedUsedProductList}">
 	                <div class="col-lg-3 col-md-4 col-sm-6">
 	                    <div class="product__item">
-	                        <div class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/applyProductImg/${rupl.imgName}">
+	                        <div class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/deliveryImg/${rupl.imgName}">
 	                            <ul class="product__item__pic__hover">
 	                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
 	                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>

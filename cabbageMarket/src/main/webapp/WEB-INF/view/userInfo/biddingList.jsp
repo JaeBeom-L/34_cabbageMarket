@@ -133,7 +133,7 @@
 					                                		${index = index+1}
 					                                	</td>
 					                                    <td>
-					                                        <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${bl.img}" width="70px" height="50px">
+					                                        <img src="/cabbageMarketFile/deliveryImg/${bl.img}" width="70px" height="50px">
 					                                    </td>
 					                                    <td width="300px">
 					                                    	<h5>
@@ -157,7 +157,7 @@
 					                                		${index = index+1}
 					                                	</td>
 					                                    <td>
-					                                        <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${bl.img}" width="70px" height="50px">
+					                                        <img src="/cabbageMarketFile/deliveryImg/${bl.img}" width="70px" height="50px">
 					                                    </td>
 					                                    <td width="250px">
 					                                    	<h5>
@@ -194,7 +194,7 @@
 					                                		${index = index+1}
 					                                	</td>
 					                                    <td>
-					                                        <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${bl.img}" width="70px" height="50px">
+					                                        <img src="/cabbageMarketFile/deliveryImg/${bl.img}" width="70px" height="50px">
 					                                    </td>
 					                                    <td width="300px">
 					                                    	<h5>
@@ -226,7 +226,7 @@
 					                                		${index = index+1}
 					                                	</td>
 					                                    <td>
-					                                        <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${bl.img}" width="70px" height="50px">
+					                                        <img src="/cabbageMarketFile/deliveryImg/${bl.img}" width="70px" height="50px">
 					                                    </td>
 					                                    <td width="300px">
 					                                    	<h5>

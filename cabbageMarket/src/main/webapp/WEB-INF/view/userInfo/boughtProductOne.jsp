@@ -99,7 +99,7 @@
 							            	<h6 class="mb-0"><b>상품 이미지</b></h6>
 							          	</div>
 							          	<div class="col-sm-9 text-secondary">
-							            	<img src="${pageContext.request.contextPath}/template/img/applyProductImg/${boughtProductOne.img}" width="300px" height="300px">
+							            	<img src="/cabbageMarketFile/deliveryImg/${boughtProductOne.img}" width="300px" height="300px">
 							          	</div>
 							        </div>
 							        <hr>

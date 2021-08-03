@@ -135,7 +135,7 @@
 	            <c:forEach var="dtpl" items="${directTradeProductList}">
 	                <div class="col-lg-3 col-md-4 col-sm-6">
 	                    <div class="product__item">
-	                        <div class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/directTradeImg/${dtpl.imgName}">
+	                        <div class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/directImg/${dtpl.imgName}">
 	                            <ul class="product__item__pic__hover">
 	                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
 	                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -164,7 +164,7 @@
 	            <c:forEach var="apl" items="${auctionProductList}">
 	                <div class="col-lg-3 col-md-4 col-sm-6">
 	                    <div class="product__item">
-	                        <div class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/applyProductImg/${apl.imgName}">
+	                        <div class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/deliveryImg/${apl.imgName}">
 	                            <ul class="product__item__pic__hover">
 	                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
 	                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -193,7 +193,7 @@
 	            <c:forEach var="upl" items="${usedProductList}">
 	                <div class="col-lg-3 col-md-4 col-sm-6">
 	                    <div class="product__item">
-	                        <div class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/applyProductImg/${upl.imgName}">
+	                        <div class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/deliveryImg/${upl.imgName}">
 	                            <ul class="product__item__pic__hover">
 	                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
 	                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>

@@ -330,8 +330,6 @@
 								<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 									<thead>
 										<tr>
-											<th>상품 등록 번호</th>
-											<th>회원 번호</th>
 											<th>회원 이름</th>
 											<th>상품 종류</th>
 											<th>상품 사진</th>
@@ -344,11 +342,9 @@
 									<tbody>
 										<c:forEach var="b" items="${bidSuccessList}">
 											<tr>
-												<td>${b.apsdId}</td>
-												<td>${b.userId}</td>
 												<td>${b.username}</td>
 												<td>${b.csId}</td>
-												<td><a href="${pageContext.request.contextPath}/manager/modifyBidSuccessProduct?apsdId=${b.apsdId}"><img src="${pageContext.request.contextPath}/template/img/applyProductImg/${b.imgName}" width="250px" height="160px"></a></td>
+												<td><a href="${pageContext.request.contextPath}/manager/modifyBidSuccessProduct?apsdId=${b.apsdId}"><img src="/cabbageMarketFile/deliveryImg/${b.imgName}" width="50px" height="60px"></a></td>
 												<td>${b.productName}</td>
 												<td>${b.regState}</td>
 												<td>${b.delState}</td>

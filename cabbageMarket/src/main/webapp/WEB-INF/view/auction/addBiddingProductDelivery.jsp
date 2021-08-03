@@ -68,7 +68,7 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td><img src="${pageContext.request.contextPath}/template/img/applyProductImg/${imgPathList[0]}" height="40px" width="40px"></td>
+											<td><img src="/cabbageMarketFile/deliveryImg/${imgPathList[0]}" height="40px" width="40px"></td>
 											<td>${productDetail.productName}</td>
 											<td>${productDetail.userName}</td>
 											<td><fmt:formatNumber value="${productDetail.price}" pattern="#,###" /></td>
@@ -116,7 +116,7 @@
 									<tbody>
 										<tr>
 											<td>
-												<textarea name="deliveryRequests" rows="5" cols="80"></textarea>
+												<textarea name="deliveryRequests" rows="5" cols="80" class="form-control"></textarea>
 											</td>
 										</tr>
 									</tbody>

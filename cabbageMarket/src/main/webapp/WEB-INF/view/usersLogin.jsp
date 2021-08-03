@@ -45,11 +45,8 @@
 							<input type="password" class="form-control" id="password" placeholder="password" name="password">						  
 						</div>						
 						<div class="d-flex mb-5 align-items-center">
-							<label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
-								<input type="checkbox" checked="checked"/>
-								<div class="control__indicator"></div>
-							</label>
 							<span class="ml-auto"><a href="${pageContext.request.contextPath}/managerLogin" class="forgot-pass" style="text-decoration: none">관리자 로그인</a></span>
+							<div class="col-6"></div>
 							<span class="ml-auto"><a href="${pageContext.request.contextPath}/registerUser" class="forgot-pass" style="text-decoration: none">회원가입</a></span> 
 						</div>
 						
@@ -58,7 +55,7 @@
 						<span class="d-block text-left my-4 text-muted"> or sign in with</span>
 						
 						<div class="d-flex mb-5 align-items-center">
-							<a href="${apiURL}"><img height="50" width="100%" src="${pageContext.request.contextPath}/logintemplate/images/loginbtn.png"/></a>
+							<a href="${apiURL}"><img height="50" width="140%" src="${pageContext.request.contextPath}/logintemplate/images/loginbtn.png"/></a>
 						</div>
 					</form>
 					</div>

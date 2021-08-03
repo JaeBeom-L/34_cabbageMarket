@@ -215,7 +215,7 @@
 											    	<c:forEach var="img" items="${imgPathList}">
 											    		<img width="230" height="230" 
 											    			style="margin-right: 4.5px; border: 1px solid rgb(220, 219, 228);"
-											    			src="${pageContext.request.contextPath}/template/img/applyProductImg/${img}" alt="">
+											    			src="/cabbageMarketFile/deliveryImg/${img}" alt="">
 											    	</c:forEach>
 											    </div> <!-- 업로드 된 이미지 미리보기 생성 -->
 							                </div>
@@ -301,7 +301,7 @@
 <!-- 경매 상품 미리보기-->			                    <div class="product__details__pic">
 <!-- 경매 상품 미리보기-->			                        <div class="product__details__pic__item">
 <!-- 경매 상품 미리보기-->			                            <img class="product__details__pic__item--large"
-								                                src="${pageContext.request.contextPath}/template/img/applyProductImg/${imgPathList[0]}" alt="">
+								                                src="/cabbageMarketFile/deliveryImg/${imgPathList[0]}" alt="">
 <!-- 경매 상품 미리보기-->			                        </div>
 <!-- 경매 상품 미리보기-->			                        <!-- 세부사진 안보이기 -->
 <!-- 경매 상품 미리보기-->			                    </div>

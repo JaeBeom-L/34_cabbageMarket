@@ -213,8 +213,8 @@
 	                <div class="col-lg-9" style="display: inline;">
 	                	<label for="imgFileUpload">
 					        <c:forEach var="img" items="${AuctionProductAndImgsList}">
-                        		<img class="images" data-imgbigurl="${pageContext.request.contextPath}/template/img/applyProductImg/${img.imgName}"
-                                src="${pageContext.request.contextPath}/template/img/applyProductImg/${img.imgName}" alt="">
+                        		<img class="images" data-imgbigurl="/cabbageMarketFile/deliveryImg/${img.imgName}"
+                                src="/cabbageMarketFile/deliveryImg/${img.imgName}" alt="">
                         	</c:forEach>
 					    </label>
 	                </div>

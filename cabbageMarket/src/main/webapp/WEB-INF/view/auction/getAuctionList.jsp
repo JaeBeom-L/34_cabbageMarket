@@ -161,7 +161,7 @@
                                         	<c:if test="${deadlineAuctionList.size() > i}">
 	                                        <a class="latest-product__item" href="${pageContext.request.contextPath}/users/getAuctionOne?applyId=${deadlineAuctionList[i].applyId}">
 	                                            <div class="latest-product__item__pic">
-	                                                <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${deadlineAuctionList[i].imgName}" alt="" style="width: 110px; height: 110px;">
+	                                                <img src="/cabbageMarketFile/deliveryImg/${deadlineAuctionList[i].imgName}" alt="" style="width: 110px; height: 110px;">
 	                                            </div>
 	                                            <div class="latest-product__item__text">
 	                                            	<c:if test="${deadlineAuctionList[i].productName.length() > 9}">
@@ -184,7 +184,7 @@
 	                                        	<c:if test="${deadlineAuctionList.size() > i}">
 		                                        <a class="latest-product__item" href="${pageContext.request.contextPath}/users/getAuctionOne?applyId=${deadlineAuctionList[i].applyId}">
 		                                            <div class="latest-product__item__pic">
-		                                                <img src="${pageContext.request.contextPath}/template/img/applyProductImg/${deadlineAuctionList[i].imgName}" alt="" style="width: 110px; height: 110px;">
+		                                                <img src="/cabbageMarketFile/deliveryImg/${deadlineAuctionList[i].imgName}" alt="" style="width: 110px; height: 110px;">
 		                                            </div>
 		                                            <div class="latest-product__item__text">
 		                                                <c:if test="${deadlineAuctionList[i].productName.length() > 9}">
@@ -224,7 +224,7 @@
 <!-- 입찰마감상품-->                <div class="col-lg-4">
 <!-- 입찰마감상품-->                     <div class="product__discount__item">
 <!-- 입찰마감상품-->                         <div class="product__discount__item__pic set-bg"
-				                           data-setbg="${pageContext.request.contextPath}/template/img/applyProductImg/${al.imgName}">
+				                           data-setbg="/cabbageMarketFile/deliveryImg/${al.imgName}">
 <!-- 입찰마감상품-->                             <div class="product__discount__percent">D-${al.datediff}</div>
 <!-- 입찰마감상품-->                             <ul class="product__item__pic__hover">
 <!-- 입찰마감상품-->                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
@@ -305,7 +305,7 @@
                     	<c:forEach var="al" items="${auctionList}">
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/applyProductImg/${al.imgName}">
+                                <div class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/deliveryImg/${al.imgName}">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>

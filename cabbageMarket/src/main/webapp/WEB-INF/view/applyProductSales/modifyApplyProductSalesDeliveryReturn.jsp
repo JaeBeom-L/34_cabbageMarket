@@ -150,7 +150,7 @@
 							                    <div class="product__details__pic">
 							                        <div class="product__details__pic__slider owl-carousel">
 							                        	<c:forEach var="img" items="${imgPathList}">
-							                        		<img data-imgbigurl="${pageContext.request.contextPath}/template/img/applyProductImg/${img}"
+							                        		<img data-imgbigurl="/cabbageMarketFile/deliveryImg/${img}"
 							                                src="${pageContext.request.contextPath}/template/img/applyProductImg/${img}" alt="">
 							                        	</c:forEach>
 							                        </div>
@@ -165,10 +165,6 @@
 							                            <i class="fa fa-star"></i>
 							                            <i class="fa fa-star"></i>
 							                            <i class="fa fa-star-half-o"></i>
-							                            <span>(18 reviews)</span>
-							                        </div>
-							                        <div class="product__details__price">
-							                        현재 상태 : ${productDetail.registrationState}
 							                        </div>
 							                        <p>${productDetail.productDesc}</p>
 							                        

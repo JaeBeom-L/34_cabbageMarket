@@ -197,8 +197,8 @@
                 <div class="col-lg-9" style="display: inline;">
                 	<label for="imgFileUpload">
 				        <c:forEach var="img" items="${imgNameList}">
-                       		<img class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/applyProductImg/${img}"
-                               src="${pageContext.request.contextPath}/template/img/applyProductImg/${img}" alt="" >
+                       		<img class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/deliveryImg/${img}"
+                               src="/cabbageMarketFile/deliveryImg/${img}" alt="" >
                        	</c:forEach>
 				    </label>
                 </div>

@@ -100,10 +100,10 @@
 			                                    	제품명
 			                                    </th>
 			                                    <th>
-			                                    	판매 수익금
+			                                    	수익금
 			                                    </th>
 			                                    <th>
-			                                    	판매 수수료
+			                                    	수수료
 			                                    </th>
 			                                    <th>
 			                                    	등록 날짜
@@ -123,10 +123,10 @@
 				                                	</td>
 				                                    <td>
 				                                    	<c:if test="${sl.content == '직거래 판매' }">
-				                                    		<img src="${pageContext.request.contextPath}/template/img/directTradeImg/${sl.img}" width="70px" height="50px">
+				                                    		<img src="/cabbageMarketFile/directImg/${sl.img}" width="70px" height="50px">
 				                                    	</c:if>
 				                                    	<c:if test="${sl.content != '직거래 판매' }">
-				                                    		<img src="${pageContext.request.contextPath}/template/img/applyProductImg/${sl.img}" width="70px" height="50px">
+				                                    		<img src="/cabbageMarketFile/deliveryImg/${sl.img}" width="70px" height="50px">
 				                                    	</c:if>				                                        
 				                                    </td>
 				                                    <td>

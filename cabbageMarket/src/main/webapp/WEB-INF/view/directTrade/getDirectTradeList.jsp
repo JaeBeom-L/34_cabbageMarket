@@ -141,7 +141,7 @@
                                         	<c:if test="${DirectTradeProductRegistrationList.size() > i}">
 	                                        <a class="latest-product__item" href="${pageContext.request.contextPath}/users/getDirectTradeOne?directTradeProductRegistrationId=${DirectTradeProductRegistrationList[i].directTradeProductRegistrationId}">
 	                                            <div class="latest-product__item__pic">
-	                                                <img src="${pageContext.request.contextPath}/template/img/directTradeImg/${DirectTradeProductRegistrationList[i].imgName}" alt="" style="width: 110px; height: 110px;">
+	                                                <img src="/cabbageMarketFile/directImg/${DirectTradeProductRegistrationList[i].imgName}" alt="" style="width: 110px; height: 110px;">
 	                                            </div>
 	                                            <div class="latest-product__item__text">
 	                                            	<c:if test="${DirectTradeProductRegistrationList[i].productName.length() > 9}">
@@ -163,7 +163,7 @@
 	                                        	<c:if test="${DirectTradeProductRegistrationList.size() > i}">
 		                                        <a class="latest-product__item" href="${pageContext.request.contextPath}/users/getDirectTradeOne?directTradeProductRegistrationId=${DirectTradeProductRegistrationList[i].directTradeProductRegistrationId}">
 		                                            <div class="latest-product__item__pic">
-		                                                <img src="${pageContext.request.contextPath}/template/img/directTradeImg/${DirectTradeProductRegistrationList[i].imgName}" alt="" style="width: 110px; height: 110px;">
+		                                                <img src="/cabbageMarketFile/directImg/${DirectTradeProductRegistrationList[i].imgName}" alt="" style="width: 110px; height: 110px;">
 		                                            </div>
 		                                            <div class="latest-product__item__text">
 		                                                <c:if test="${DirectTradeProductRegistrationList[i].productName.length() > 9}">
@@ -196,7 +196,7 @@
 	                                <div class="col-lg-4">
 	                                    <div class="product__discount__item">
 	                                        <div class="product__discount__item__pic set-bg"
-	                                            data-setbg="${pageContext.request.contextPath}/template/img/directTradeImg/${dtprl.imgName}">
+	                                            data-setbg="/cabbageMarketFile/directImg/${dtprl.imgName}">
 	                                            <ul class="product__item__pic__hover">
 	                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
 	                                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -282,7 +282,7 @@
                     	<c:forEach var="dtprl" items="${DirectTradeProductRegistrationList}">
 	                    	<div class="col-lg-4 col-md-6 col-sm-6">
 	                            <div class="product__item">
-	                                <div class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/directTradeImg/${dtprl.imgName}">
+	                                <div class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/directImg/${dtprl.imgName}">
 	                                    <ul class="product__item__pic__hover">
 	                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
 	                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>

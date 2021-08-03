@@ -66,12 +66,12 @@
                     <div class="product__details__pic">
                         <div class="product__details__pic__item">
                             <img class="product__details__pic__item--large"
-                                src="${pageContext.request.contextPath}/template/img/directTradeImg/${imgNameList[0]}" alt="">
+                                src="/cabbageMarketFile/directImg/${imgNameList[0]}" alt="">
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                         	<c:forEach var="img" items="${imgNameList}">
-                        		<img data-imgbigurl="${pageContext.request.contextPath}/template/img/directTradeImg/${img}"
-                                src="${pageContext.request.contextPath}/template/img/directTradeImg/${img}" alt="">
+                        		<img data-imgbigurl="/cabbageMarketFile/directImg/${img}"
+                                src="/cabbageMarketFile/directImg/${img}" alt="">
                         	</c:forEach>
                         </div>
                     </div>
@@ -85,7 +85,6 @@
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star-half-o"></i>
-                            <span>(18 reviews)</span>
                         </div>
                         <div class="product__details__price"><fmt:formatNumber value="${productDetail.productPrice}" pattern="#,###" /></div>
                         	<c:if test="${productDetail.userId == usersSession.userId}">
@@ -166,7 +165,7 @@
 	            <c:forEach var="rdpl" items="${relatedDirectProductList}">
 	                <div class="col-lg-3 col-md-4 col-sm-6">
 	                    <div class="product__item">
-	                        <div class="product__item__pic set-bg" data-setbg="${pageContext.request.contextPath}/template/img/directTradeImg/${rdpl.imgName}">
+	                        <div class="product__item__pic set-bg" data-setbg="/cabbageMarketFile/directImg/${rdpl.imgName}">
 	                            <ul class="product__item__pic__hover">
 	                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
 	                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>

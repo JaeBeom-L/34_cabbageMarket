@@ -7,7 +7,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="${pageContext.request.contextPath}/template/img/logo_CM.png" alt=""></a>
+                            <a href="${pageContext.request.contextPath}/index"><img src="${pageContext.request.contextPath}/template/img/logo_CM.png" alt=""></a>
                         </div>
                         <ul>
                             <li>주소 : 08505 서울시 금천구 가산디지털2로 1109-1호 (가산동, 대륭테크노타운3차)</li>
@@ -18,13 +18,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
                     <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">개인정보처리방침</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                        </ul>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">

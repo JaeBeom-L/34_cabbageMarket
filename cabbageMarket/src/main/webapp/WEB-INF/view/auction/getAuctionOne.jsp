@@ -118,12 +118,12 @@
                     <div class="product__details__pic">
                         <div class="product__details__pic__item">
                             <img class="product__details__pic__item--large"
-                                src="${pageContext.request.contextPath}/template/img/applyProductImg/${imgPathList[0]}" alt="">
+                                src="/cabbageMarketFile/deliveryImg/${imgPathList[0]}" alt="">
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                         	<c:forEach var="img" items="${imgPathList}">
-                        		<img data-imgbigurl="${pageContext.request.contextPath}/template/img/applyProductImg/${img}"
-                                src="${pageContext.request.contextPath}/template/img/applyProductImg/${img}" alt="">
+                        		<img data-imgbigurl="/cabbageMarketFile/deliveryImg/${img}"
+                                src="/cabbageMarketFile/deliveryImg/${img}" alt="">
                         	</c:forEach>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                         <form id="calculPointForm" action="${pageContext.request.contextPath}/users/calculatePoint" method="post" >
                         	<input type="hidden" name="applyId" value="${productDetail.applyId}">
                         	<input type="hidden" name="newPrice" value="${productDetail.newPrice}">
-                        	<button id="callQuote" class="primary-btn" style="margin-top: 3px;">호가 : <fmt:formatNumber value="${productDetail.newPrice}" pattern="#,###" /></button>
+                        	<button id="callQuote" class="primary-btn" style="margin-top: 3px; border: 0px;">호가 : <fmt:formatNumber value="${productDetail.newPrice}" pattern="#,###" /></button>
                         	<div class="heart-btn">
 						      <div class="content">
 						        <span class="heart"></span>
@@ -277,7 +277,7 @@
 						<div class="product__item">
 						
 						<div class="product__discount__item__pic set-bg"
-                           data-setbg="${pageContext.request.contextPath}/template/img/applyProductImg/${ral.imgName}">
+                           data-setbg="/cabbageMarketFile/deliveryImg/${ral.imgName}">
                              <ul class="product__item__pic__hover">
                                  <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                  <li><a href="#"><i class="fa fa-retweet"></i></a></li>

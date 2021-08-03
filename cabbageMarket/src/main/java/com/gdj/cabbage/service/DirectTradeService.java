@@ -86,7 +86,7 @@ public class DirectTradeService {
 				try {
 					File temp = new File("");
 					String path = temp.getAbsolutePath();
-					f.transferTo(new File(path+"\\src\\main\\webapp\\template\\img\\directTradeImg\\"+filename));
+					f.transferTo(new File(path+"/home/ubuntu/tomcat9/webapps/cabbageMarketFile/directImg/"+filename));
 				} catch (Exception e) {
 					throw new RuntimeException();
 				}
